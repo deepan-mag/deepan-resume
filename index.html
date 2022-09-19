@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive resume cv</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Deepan</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Certificates
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#references" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i>References
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/10706392.jpg" alt="" class="home__img" />
+
+                <h1 class="home__title">
+                  <b>Deepanchakravarthi Venkatachalapathi </b>
+                </h1>
+                <h3 class="home__profession">Dotnet Fullstack</h3>
+
+                <div>
+                  <a
+                    download=""
+                    href="assets/pdf/ResumeCv.pdf"
+                    class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>Coimbatore
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>deepanmotog@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i>+91 8825504441
+                </span>
+              </div>
+            </div>
+
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/deepan-v-637a801a0/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i
+                >@deepan-v-637a801a0
+              </a>
+              <!-- <a href="" target="_blank" class="social__link">
+                <i class="bx bxl-facebook social__icon"></i>@deepan
+              </a>
+              <a href="" target="_blank" class="social__link">
+                <i class="bx bxl-instagram social__icon"></i>@deepan
+              </a> -->
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile__description">
+              Expert in developing web applications using Asp.Net core API with
+              Angular and React. Proficient in microservices architecture.
+              Proficient in developing Asp.Net MVC architecture applications.
+              Proficient in Entity framework with Sql/NoSql. Good knowledge in
+              Azure DevOps and Azure Services. Good Knowledge in Docker and
+              Kubernetes. 2 years of Onsite experience in the Netherlands.
+              Proficient in debugging issues and finding solutions. Successfully
+              delivering projects as a technical team lead.
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">SSLC</h3>
+                  <span class="education__studies"
+                    >Board of Secondary Education, Salem,India</span
+                  >
+                  <span class="education__year">2001-2002</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education_title">Diploma in Electronics</h3>
+                  <span class="education__studies"
+                    >Department of Technical Education, Salem, India</span
+                  >
+                  <span class="education__year">2003-2006</span>
+                </div>
+              </div>
+              <div class="html2pdf__page-break"></div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Bachelor of Engineering in Electronics
+                  </h3>
+                  <span class="education__studies"
+                    >SNS College Of Technology, Coimbatore, India</span
+                  >
+                  <span class="education__year">2006-2010</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Asp.Net Core API
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> C#
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Entityframework Core
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Azure Devops and Azure
+                  Services
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Docker and Kubernetes
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Html
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> CSS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Javascript
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Angular
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> React
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experince__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Specialist</h3>
+                  <span class="experience__company"
+                    >May 2022 | Lnt Infotech | Coimbatore,India</span
+                  >
+                  <p class="experience__description">
+                    I lead a team of 3 API developers where we create API
+                    services developed in Microservices architecture that
+                    communicates to another one of Client's data source and
+                    produce responses. The portal creates engagements by
+                    uploading the relevant data bulk/partially. These
+                    engagements are further approved by the engagement partners
+                    team. The approved engagements are further stored back to
+                    the client's data source again.
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    Application Development Team Lead
+                  </h3>
+                  <span class="experience__company"
+                    >July 2021 - May 2022 | Accenture,India</span
+                  >
+                  <p class="experience__description">
+                    I have led the team of four with Angular and AspDotNetCore
+                    API as a backend specialized team to the successful delivery
+                    of the iAPM project. iAPM helps the customer to assess their
+                    projects functionally and cost wise. I have also done the
+                    data anonymization and Sonarcube integration in devops
+                    pipeline for ICS project. And I have created APIs which
+                    creates excel sheets of data for the Azure Appinsights.
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <div class="experience__line"></div>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Senior Associate</h3>
+                  <span class="experience__company"
+                    >Sep 2019 - Jul 2021 | CTS, Chennai, India</span
+                  >
+                  <p class="experience__description">
+                    Successfully led a project of creating a production like
+                    environment. Successfully formed a team for enhancements
+                    work and led them for many successful deliveries. Did proof
+                    of concepts with Azure Chatbot and data analysis and
+                    presented them to the clients. Initiated cloud migrations
+                    with containerization concepts. Collecting the enhancements
+                    and features list and prioritize them based on the Business
+                    needs. Analyze and design them considering the release date.
+                    Take each items through test phases like QA, Stage, UAT and
+                    Production. Production support. Technical assistance to the
+                    team. Driving daily scrum call with internal team. Driving
+                    daily client call to discuss on the progress. Release and
+                    deployment management starting from Creating the code
+                    branch, assigning tasks to the team, checking in the code,
+                    configuring the pipeline from the repository to different
+                    environments. Deployment support with the Server management
+                    team. Monitoring and supporting to ensure applications
+                    stability across all the environments.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <div class="experience__line"></div>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Dotnet Developer</h3>
+                  <span class="experience__company"
+                    >Dec 2018 - May 2019 | NextGen Webservices Ltd, Coimbatore,
+                    India</span
+                  >
+                  <p class="experience__description">
+                    Create and assign tasks for both internal and external
+                    resources, monitoring and managing their daily schedules in
+                    real time. I worked as End to end module developer.
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <div class="experience__line"></div>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Associate Engineer</h3>
+                  <span class="experience__company"
+                    >June 2016 - Nov 2018 | AJ Tech Research Labs,
+                    Coimbatore,India</span
+                  >
+                  <p class="experience__description">
+                    Below are the projects that I have worked from scratch for
+                    various clients. 1. Python automations. [Sales Analysis,
+                    Future predictions, PDF to Audio, repetitive Emails and
+                    WhatsApp messages sending, QnA chatbot, Speech recognition
+                    projects] 2. MERN stack and Angular applications. 3.
+                    ChatBot(Azure QnA maker)
+                  </p>
+                </div>
+              </div>
+
+              <div class="html2pdf__page-break"></div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <div class="experience__line"></div> -->
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Senior Software Engineer</h3>
+                  <span class="experience__company"
+                    >Tech Mahindra, Pune,India</span
+                  >
+                  <p class="experience__description">
+                    Senior dotnet developer and Onsite delivery coordinator.
+                    Responsibilities: 2 years working experience at onsite with
+                    clients directly. Understanding the business needs and
+                    designing them as design documents. Estimation on the
+                    modules with expected delivery dates on each modules.
+                    Creating proof of concepts and showcasing them to the
+                    clients. Implementing the real business with the every day
+                    inputs from Clients.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATIONS ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">CERTIFICATIONS</h2>
+
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Introduction to Cybersecurity
+                </h3>
+                <p class="certificate__description">
+                  Completed Introduction to Cybersecurity by Cisco Networking
+                  Academy
+                </p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">Linux Basics</h3>
+                <p class="certificate__description">
+                  Completed NDG Linux Unhatched by Cisco Networking Academy
+                </p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Strengthening Our Cyber Resiliency
+                </h3>
+                <p class="certificate__description">
+                  Completed Strengthening Our Cyber Resiliency by World Bank
+                  Group
+                </p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">Docker Basics</h3>
+                <p class="certificate__description">
+                  Docker Mastery certificate of completion in Udemy.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!--========== REFERENCES ==========-->
+          <!-- <section class="references section" id="references">
+            <h2 class="section-title">References</h2>
+
+            <div class="references__container bd-grid">
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Sr. Director</span>
+                <h3 class="references__title">Mr. Clay Doe</h3>
+                <ul class="refereces__contact">
+                  <li>Phone: 999-777-666</li>
+                  <li>Email: user@email.com</li>
+                </ul>
+              </div>
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Manager</span>
+                <h3 class="references__title">Mr. Kate bokhorst</h3>
+                <ul class="refereces__contact">
+                  <li>Phone: 999-777-666</li>
+                  <li>Email: user@email.com</li>
+                </ul>
+              </div>
+            </div>
+          </section> -->
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span> English
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Tamil
+                </li>
+                <!-- <li class="languages__name">
+                  <span class="languages__circle"></span> German
+                </li> -->
+              </ul>
+            </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name">Music</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt interests__icon"></i>
+                <span class="interests__name">Travel</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name">Read</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-dumbbell interests__icon"></i>
+                <span class="interests__name">Fitness</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

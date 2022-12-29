@@ -1,5 +1,3 @@
-# Responsive Resume Deepan
-
-### Responsive Resume Cv Smith
+### Responsive Resume Deepan
 
 ![Resume Deepan](/preview.png)

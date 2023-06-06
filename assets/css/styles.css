@@ -397,7 +397,7 @@ img {
 .experience__line {
   display: block;
   width: 2px;
-  height: 120%;
+  height: 110%;
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
 }

@@ -430,6 +430,8 @@ img {
 
 .skills__data,
 .languages__data {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 0;
 }
 .skills__name,

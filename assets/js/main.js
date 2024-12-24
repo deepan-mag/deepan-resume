@@ -119,9 +119,9 @@ let opt = {
   // },
   margin: 2,
   filename: "deepan_resume.pdf",
-  image: { type: "jpeg", quality: 0.98 },
+  image: { type: "jpeg", quality: 1 },
   html2canvas: { scale: 2, bottom: 20 },
-  pagebreak: { mode: ["css"], before: "#page2el" },
+  pagebreak: { avoid: "tr", mode: "css", before: "#page2el" },
   jsPDF: {
     format: "a4",
     orientation: "portrait",
